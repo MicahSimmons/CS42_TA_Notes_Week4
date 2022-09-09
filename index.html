@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CS42 Phaser Template Game</title>
+  <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="tron"></div>
+
+  <!-- Load The Phaser Game Engine -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser-arcade-physics.min.js"></script>
+
+  <!-- Load some Scenes -->
+  <script src="./scripts/scene_example.js"></script>
+  
+  <!-- Load the Game Root object -->
+  <script src="./scripts/script.js"></script>
+
+  <!-- Start the game -->
+  <script>
+    var game_obj = new Game("tron");
+  </script>
+</body>
+
+</html>
