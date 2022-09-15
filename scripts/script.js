@@ -5,11 +5,15 @@ const init_model = {
     width: 800,
     height: 600,
     physics: {
-      default: 'arcade'
+      default: 'arcade',
+      arcade: {
+        gravity: { y: 0 },
+        debug: false
+      }
     },
     backgroundColor: '#2d2d2d',
     parent: 'root',
-    scene: [ SceneExample ]
+    scene: [ SceneBreakout ]
   }
 };
 
