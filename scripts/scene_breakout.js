@@ -113,7 +113,7 @@ class ObjectStatus extends Phaser.Physics.Arcade.Group {
           { level: 5, text: "Great!!!"},
           { level: 10, text: "Super!!!!!"},
           { level: 15, text: "AMAZING!"},
-          { level: 20: text: "GODLIKE"}
+          { level: 20, text: "GODLIKE"}
         ].filter( (obj) => (obj.level <= combo) )
          .reduce( (prev, curr) => curr )
          .text;
